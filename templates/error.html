@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<main class="container mt-3">
+    <section
+    class="jumbotron text-center mt-4"
+    style="
+    background-position: center center;
+    background-color: white;"
+    >
+    <h1 class="display-4">Упс! Страница не найдена</h1>
+    <h3 class="lead">{{ message }}</h3>
+    </section>
+    <a href="/"><button type="button" class="btn btn-info btn-lg btn-block">Вернуться на главную</button></a>
+</main>  
+{% endblock %}
